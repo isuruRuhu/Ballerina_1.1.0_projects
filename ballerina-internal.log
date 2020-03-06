@@ -1,0 +1,68 @@
+[2020-02-27 11:01:06,178] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at org.ballerinalang.tool.Main.getInvokedCmd(Main.java:100)
+	at org.ballerinalang.tool.Main.main(Main.java:56)
+ 
+[2020-02-27 11:01:31,388] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at org.ballerinalang.tool.Main.getInvokedCmd(Main.java:100)
+	at org.ballerinalang.tool.Main.main(Main.java:56)
+ 
+[2020-02-28 13:45:37,288] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at ___init.___stop_(.:3)
+	at ___init.$lambda$___stop_(.)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:456)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:248)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:220)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:207)
+	at ___init.$moduleStop(.)
+	at ___init$SignalListener.run(Unknown Source)
+ 
+[2020-02-28 13:45:37,301] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at ___init.___stop_(.:3)
+	at ___init.$lambda$___stop_(.)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:456)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:248)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:220)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:207)
+	at ___init.$moduleStop(.)
+	at ___init$SignalListener.run(Unknown Source)
+ 
+[2020-02-28 13:56:05,022] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at ___init.___stop_(.:3)
+	at ___init.$lambda$___stop_(.)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:456)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:248)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:220)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:207)
+	at ___init.$moduleStop(.)
+	at ___init$SignalListener.run(Unknown Source)
+ 
+[2020-02-28 13:56:05,041] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at ___init.___stop_(.:3)
+	at ___init.$lambda$___stop_(.)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:456)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:248)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:220)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:207)
+	at ___init.$moduleStop(.)
+	at ___init$SignalListener.run(Unknown Source)
+ 
+[2020-03-05 17:03:53,646] SEVERE {b7a.log.crash} - Java heap space 
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.String.concat(String.java:2032)
+	at ballerina.prometheus.$value$PrometheusReporter__service_0.getMetrics(reporter.bal:77)
+	at ballerina.prometheus.$value$PrometheusReporter__service_0.call(reporter.bal)
+	at org.ballerinalang.jvm.values.connector.Executor.lambda$submit$0(Executor.java:76)
+	at org.ballerinalang.jvm.values.connector.Executor$$Lambda$66/1366761637.apply(Unknown Source)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler$$Lambda$7/1638215613.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+ 
